@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "shivam dwivedi",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.14",
+    "nodemon": "^1.18.4"
+  }
+}
